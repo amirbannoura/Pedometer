@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PedoMeter</string>
+    <string name="xorientation">xOrientation:</string>
+    <string name="yorientation">yOrientation:</string>
+    <string name="zorientation">zOrientation:</string>
+    <string name="xgiro">XGiro:</string>
+    <string name="ygiro">YGiro:</string>
+    <string name="zgiro">ZGiro:</string>
+    <string name="X">X-Accel:</string>
+    <string name="Y">Y-Accel:</string>
+    <string name="Z">Z-Accel:</string>
+    <string name="G">G:</string>
+    <string name="MX">MX:</string>
+    <string name="MY">MY:</string>
+    <string name="MZ">MZ:</string>
+    <string name="start_service">Start Service</string>
+    <string name="update_service">Update Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="exit_service">Exit Service</string>
+</resources>
