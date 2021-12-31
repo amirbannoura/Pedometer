@@ -1,30 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
+    android:layout_width="wrap_content"
     android:layout_height="fill_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
     tools:context=".MainActivity">
 
-    <Button android:id="@+id/start_service_button"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/LinearLayout00"
         android:layout_height="wrap_content"
-        android:text="@string/start_service" />
-    <Button android:id="@+id/stop_service_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/stop_service" />
-    <!--  <Button android:id="@+id/update_values_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/update_service" />
-      <Button android:id="@+id/about_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="About" />  -->
-    <Button android:id="@+id/exit_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/exit_service" />
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentTop="true">
 
-</androidx.appcompat.widget.LinearLayoutCompat>
+        <Button
+            android:id="@+id/start_service_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" android:text="@string/start_service">
+        </Button>
+
+        <Button
+            android:id="@+id/stop_service_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/stop_service"></Button>
+
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/exit_service">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+
+        <TextView
+            android:id="@+id/xOrientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xorientation" />
+
+        <TextView
+            android:id="@+id/yOrientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yorientation" />
+
+        <TextView
+            android:id="@+id/zOrientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zorientation" />
+
+        <TextView
+            android:id="@+id/xGiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xgiro" />
+
+        <TextView
+            android:id="@+id/yGiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ygiro" />
+
+        <TextView
+            android:id="@+id/zGiro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zgiro" />
+
+        <TextView
+            android:id="@+id/AccelX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/X" />
+
+        <TextView
+            android:id="@+id/AccelY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Y" />
+
+        <TextView
+            android:id="@+id/AccelZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Z" />
+
+        <TextView
+            android:id="@+id/AccelG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/G" />
+
+        <TextView
+            android:id="@+id/mx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MX" />
+
+        <TextView
+            android:id="@+id/my"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MY" />
+        <TextView
+            android:id="@+id/mz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MZ" />
+
+    </LinearLayout>
+
+</RelativeLayout>

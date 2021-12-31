@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
                         MY = pedoServiceProxy.getMY();
                         MZ = pedoServiceProxy.getMZ();
 
-		/*			WriteFile();
+					//WriteFile();
 
 					TextView tview= (TextView) findViewById(R.id.xOrientation);
 					tview.setText(Float.toString(xOrientation));
@@ -133,7 +133,6 @@ public class MainActivity extends AppCompatActivity {
 					tview = (TextView) findViewById(R.id.AccelY);
 					tview.setText(Float.toString(Y));
 
-
 					tview = (TextView) findViewById(R.id.AccelZ);
 					tview.setText(Float.toString(Z));
 
@@ -149,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
 
 					tview = (TextView) findViewById(R.id.mz);
 					tview.setText(Float.toString(MZ));
-*//*
+/*
 					DatagramSocket clientSocketUdp;
 					clientSocketUdp = new DatagramSocket(6001);
 
@@ -321,8 +320,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-
-
         /* listener for the exit button
          * exit by calling the finish method, which calls the onDestroy method
          */
@@ -358,7 +355,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-
 
 
     //check whether a service is running or not!
